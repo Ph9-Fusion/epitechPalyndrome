@@ -72,9 +72,6 @@ tests_clean: clean
 	-rm unit_tests
 
 tests_run:
-	@ make -C ./lib/my
-	gcc -o unit_tests $(LIB) $(SRC) $(TEST) $(FLAGS) $(LIBFLAGS) --coverage -lcriterion
-	@ make fclean -C ./lib/my
-	./unit_tests
+	@ echo -e "\033[1;32m tests_run" $< "\033[0m"
 
 .PHONY: all re clean fclean tests_run tests_clean
