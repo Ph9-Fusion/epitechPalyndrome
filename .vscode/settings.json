@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "palindrome.h": "c",
+        "lib.h": "c"
+    }
+}
