@@ -2,7 +2,7 @@
 ** EPITECH PROJECT, 2019
 ** palindrome
 ** File description:
-** main
+** main Here
 */
 
 #include "palindrome.h"
